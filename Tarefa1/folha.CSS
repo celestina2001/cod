@@ -1,0 +1,128 @@
+input{
+    padding: 10px 300px;
+    border-radius: 30px; 
+}
+.nave ul{
+    display: flex;
+    justify-content: space-around;
+}
+.nave a{
+    color: black;
+    position: relative;
+}
+.nave a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+
+}
+.nave a:hover::after{
+    width: 100%;
+}
+.Anselmo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 125px;
+    }
+h1{
+    margin-left: 100px;
+    color: indigo;
+    margin-top: 80px;
+}
+.Rui{
+    margin-bottom: 5px;
+    width: 800px;
+    height: 400px;
+  }
+.Huila{
+    display: block;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+h2{
+    color: indigo;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.Eva{
+    width: 500px;
+
+  height: 200px;
+}
+.EvaRap{
+    width: 500px;
+
+  height: 200px;
+}
+.Botao{
+    background-color: indigo;
+    border: none;
+    color: orangered;
+    padding: 10px 30px;
+    font-size: 20px;
+
+}
+.footer-content{
+   
+    color: orangered;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;  
+}
+footer{
+    background-color: indigo;
+}
+.copyright{
+
+    color: orangered;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-top: 1px solid gray;
+    
+    
+}
+a{
+    color: orangered;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    font-size: 20px;
+}
+.itens{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+
+}
+img{
+    width: 208px;
+    height: 36px;
+    margin-top: 100px;
+
+}
+span{
+    margin-left: 10px;
+}
+.icones{
+    margin-top: 20px;
+}
+.icones a{
+    margin-left: 15px;
+    margin-right: 5px;
+}
+.Unitel{
+    margin-top: 40px;
+    margin-left: 80px;
+}
